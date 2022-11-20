@@ -1,5 +1,7 @@
 # Relational based Transfer Learning for Automatic Optical Inspection based on domain discrepancy
 
+<a href="https://colab.research.google.com/drive/1qw5F_V8FH2yorPPX8H6_BKFIPiqhFyB3?usp=sharing" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
+
 ## Abstract
 Transfer learning is a promising method for AOI applications since it can significantly shorten sample collection time and improve efficiency in today’s smart manufacturing. However, related research enhanced the network models by applying TL without considering the domain similarity among datasets, the data long-tailedness of a source dataset, and mainly used linear transformations to mitigate the lack of samples. This research applies relational-based TL via domain similarity to improve the overall performance and data augmentation in both target and source domains to enrich the data quality and reduce the imbalance. Given a group of source datasets from similar industrial processes, we define which group is the most related to the target through the domain discrepancy score and the number of samples each has. Then, we transfer the chosen pre-trained backbone weights to train and fine-tune the target network. Our research suggests increases in the F1 score and the PR curve up to 20% compared with TL using benchmark datasets.
 
