@@ -54,5 +54,29 @@ We prepared reports for the Domain Adaption section:
 ## Implementation details
 Our experiments were performed on a PC with an Intel(R) Core(TM) i5-10400F 2.90GHz CPU and an NVIDIA RTX 3060 GPU. Regarding neural network models, we utilized [YOLOv5](https://github.com/ultralytics/yolov5) because it offers model scaling, is easy to implement and modify. Its architecture loads pre-trained weights in COCO from their respective official repositories. This model was trained with a batch size of 11 on a single GPU for 50 epochs. 
 
-## Other results
-Please refer to the paper.
+## Additional information about labels
+
+Our datasets contain labels in Chinese, so we decided to translate them into English for research purposes. The chart below shows the changes we made.
+
+| Defects | Original name |
+| ------- | ------- |
+| white crack | _bailiewen |
+| standard chipping | _biaozhunbengque |
+| standard crack | _biaozhunliewen |
+| chamfer | _daojiao |
+| multifaceted | _duocengmian  |
+| crystallization | _jiejing |
+| contour chipping | _lunkuobengque |
+| superficial chipping | _mohubengque |
+| ambiguity | _molengliangke |
+| plane chipping | _pingmianbengque |
+| light inking | _qianmo |
+| triangular row | _sanjiaolie |
+| bump | _tudian |
+| fine cracks | _xixiaoliewen |
+| impurities | _zazhi |
+| chipping | bengque |
+| abnormal chamfer | daojiaoyichang |
+| crack | liewen |
+| gas hole | qikong |
+| stains | wuzi |
